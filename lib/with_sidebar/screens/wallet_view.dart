@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:widget_tests/with_sidebar/services/wallet_service.dart';
 
 
-class WalletScreen extends StatefulWidget {
-  const WalletScreen({Key? key}) : super(key: key);
+class WalletView extends StatefulWidget {
+  const WalletView({Key? key}) : super(key: key);
 
   @override
-  _WalletScreenState createState() => _WalletScreenState();
+  _WalletViewState createState() => _WalletViewState();
 }
 
-class _WalletScreenState extends State<WalletScreen> {
+class _WalletViewState extends State<WalletView> {
 
   List data;
 
